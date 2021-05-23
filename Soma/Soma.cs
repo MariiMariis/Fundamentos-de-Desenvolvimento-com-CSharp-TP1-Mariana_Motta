@@ -11,7 +11,6 @@ namespace Soma
             int numero2;
             int soma;
 
-            
             Console.WriteLine("Digite o primeiro número: ");
             var primeiroNumero = Console.ReadLine();
 
@@ -21,10 +20,9 @@ namespace Soma
             numero1 = Int32.Parse(primeiroNumero);
             numero2 = Int32.Parse(segundoNumero);
 
-
             soma = numero1 + numero2;
 
-            Console.WriteLine($"O resultado da soma dos números {primeiroNumero} e {segundoNumero} é + {soma}!");
+            Console.WriteLine($"O resultado da soma dos números {primeiroNumero} e {segundoNumero} é {soma}!");
 
         }
     }
