@@ -4,7 +4,7 @@ namespace Soma
 {
     class ProgramaSoma
     {
-        static void Main()
+        static void Main(string[] args)
 
         {
             int numero1;

@@ -4,7 +4,7 @@ namespace Multiplicacao
 {
     class ProgramaMultiplicacao
     {
-        static void Main()
+        static void Main(string[] args)
 
         {
             int numero1;
@@ -20,7 +20,7 @@ namespace Multiplicacao
             numero1 = Int32.Parse(primeiroNumero);
             numero2 = Int32.Parse(segundoNumero);
 
-            multiplicacao = numero1 - numero2;
+            multiplicacao = numero1 * numero2;
 
             Console.WriteLine($"O resultado da multiplicação dos números {primeiroNumero} e {segundoNumero} é {multiplicacao}!");
 

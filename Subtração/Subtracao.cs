@@ -4,7 +4,7 @@ namespace Subtracao
 {
     class ProgramaSubtracao
     {
-        static void Main()
+        static void Main(string[] args)
 
         {
             int numero1;
