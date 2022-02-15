@@ -11,7 +11,7 @@ namespace Multiplicacao
             int numero2;
             int multiplicacao;
 
-            Console.WriteLine("Digite o primeiro número: "
+            Console.WriteLine("Digite o primeiro número: ");
             var primeiroNumero = Console.ReadLine();
 
             Console.WriteLine("Digite o segundo número: ");
